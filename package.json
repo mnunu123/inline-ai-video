@@ -1,0 +1,25 @@
+{
+  "name": "inline-ai-video",
+  "version": "1.0.0",
+  "description": "인라인 AI 소개 영상 - 3분",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render InlineAIVideo out/video.mp4 --concurrency=4",
+    "generate-audio": "node scripts/generate-audio.js"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "dotenv": "^16.0.0",
+    "typescript": "^5.3.0"
+  },
+  "remotion": {
+    "entryPoint": "src/index.ts"
+  }
+}
