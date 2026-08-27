@@ -24,6 +24,19 @@
 | S8 | 대상 사용자 |
 | S9~S13 | (이어지는 활용 사례/마무리) |
 
+## 실제 구동 화면
+
+`npx remotion still InlineAIVideo out.png --frame=<N>`으로 실제 렌더링한 프레임입니다 (이 저장소 코드를 그대로 실행한 결과).
+
+![S1 — Hook](screenshots/s1-hook.png)
+*S1(프레임 350) — "그 시간을 10분의 1로 줄여주는 도구가 나왔어요" 내레이션과 함께 "inline AI" 로고가 등장한다.*
+
+![S5 — UI 3분할 소개](screenshots/s5-ui-3panel.png)
+*S5(프레임 1930) — 참고자료 / 문서 편집 / AI 채팅 3분할 UI 구조를 카드로 설명하는 장면.*
+
+![S7 — 자동 채우기](screenshots/s7-auto-fill.png)
+*S7(프레임 2700) — 참고자료(PDF/HWP)를 넣으면 AI가 보고서 양식을 자동으로 채워주는 흐름을 시각화.*
+
 ## 오디오 파이프라인
 
 씬별 자막 텍스트를 `scripts/generate-audio.js`가 ElevenLabs TTS API로 변환해
